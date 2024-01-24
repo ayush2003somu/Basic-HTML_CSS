@@ -1,0 +1,55 @@
+h1{
+    color:rgb(102, 63, 4); text-align: center;
+}
+h2{
+    color:peru
+}
+
+header{
+    color:gray;
+    background-color: lightblue;
+    padding: 70px;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 1cap;
+}
+
+header :hover{
+    color: rgb(122, 122, 231);
+}
+nav {
+    padding: 25px;
+    background-color: black;
+    border-radius: 10px;
+
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-weight:700 ;
+    margin-right: 3%;
+    padding: 10px;
+        
+}
+a:hover{
+    color: darkred;
+}
+
+table,th,td{
+    border:2px;
+    color: black;
+    border-color: black;
+    border-style:groove
+}
+
+th{
+    padding: 15px;
+    background-color: blueviolet;
+    
+}
+td{
+    padding:15px;
+    background-color: green;
+    color: yellow;
+}

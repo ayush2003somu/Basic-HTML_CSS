@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+    <link rel="stylesheet" href="stylep.css">
+</head>
+<body>
+    <main>
+        
+       
+        <header>
+        <h1>Payment Form</h1>
+    </header>
+    
+        <form>
+        <hr>
+        <h3>User Information</h3>
+        Name: <input style="width: 50%" type="text" required name="name" placeholder="Enter Your Name">
+        </p>
+        <p>
+            <fieldset>
+                <legend>Gender</legend>
+                Male:<input type="radio" name="Gender" id="male">
+                female:<input type="radio" name="Gender" id="female">
+             </fieldset>
+            <br>
+        </p><p>
+        Address: <br><textarea style="width: 50%; height: 50px;" name="address" id="address" cols="100" rows="10"></textarea>    
+        </p>
+        <p>
+            Email: <input style="width: 50%;"type="email" name="email" id="email">
+
+        </p>
+        <p>
+            Pincode: <input style="width:25%" type="number" name="pincode" id="pincode">
+        </p>
+
+<hr>
+        <h3>
+            Payment Details
+        </h3>
+
+        <p>Card Type:
+           
+        <select style="width:20%"name="selectcard" id="selectcard">
+                <option value="">--Select card Type--</option>
+                 <option value="Rupay">Rupay card</option><img src="https://images.poshvine.com/visa_PNG4.png" height="10px"></img>
+                <option value="Visa">Visa Card</option>
+                <option value="Mastercard">Mastercard</option>    
+                
+            </select>
+            
+            <img src="https://www.rupay.co.in/images/rupay/footer-logo.png" height="10px"></img>
+            <img src="https://images.poshvine.com/visa_PNG4.png" height="10px"></img>
+            <img src="https://www.mastercard.co.in/content/dam/public/mastercardcom/in/en/logos/mc-logo-52.svg" height="10px"></img>
+            <br> 
+            <p>
+       Card Number: <input style="width:25%" type="number" name="card num" id="card num" placeholder="1111-1111-1111-1111">
+        <br><br> Expiry Date:  <input style="width: 20%" Type="date" name="date" id="date">
+    CVV: <input style="width:10%"type="number" name="cvv" id="cvv" placeholder="123">    
+    </p>
+    </p>
+    <div>
+    <input type="submit" value="Pay Now">
+</div>   
+</form>
+ </main>
+</body>
+</html>
