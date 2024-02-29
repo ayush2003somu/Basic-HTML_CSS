@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        body{
+            margin:none
+            
+
+        }
+
+        .flexcontainer{
+            display: flex;
+            width: 100%;
+            height: 100% ;
+            flex-wrap: wrap;
+            align-content: space-around;
+        }
+        .flexitem{
+            padding: 20px;
+            
+            height: 200px;
+            width: 200px;
+           
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            border: 3px solid black;
+        }
+
+    #flex1{
+        background-color: orange;
+
+        animation: bounce 0.5s ease 0s infinite alternate both;
+
+    
+    }
+
+    #flex2{
+        background-color: red;
+
+    }
+    #flex3{
+        background-color: blue;
+    }
+    #flex4{
+        background-color: green;
+    }
+    #flex5{
+        background-color: palevioletred;
+    }
+    @keyframes bounce{
+        0%{
+            bottom: 0px;
+        }
+
+        100%{
+            bottom: 80px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="flexcontainer">
+        <div class="flexitem" id="flex1">Lorem ipsum dolor sit amet. </div>
+        <div class="flexitem"id="flex2">2</div>
+        <div class="flexitem"id="flex3">Lorem ipsum dolor sit amet. </div>
+        <div class="flexitem"id="flex4">4</div>
+        <div class="flexitem"id="flex5">5</div>
+
+    </div>
+</body>
+</html>
